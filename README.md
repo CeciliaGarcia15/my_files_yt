@@ -1,66 +1,86 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Proyecto: Aplicación Web para subir archivos
+Descripción
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Esta aplicación web, construida con Laravel y Livewire que desarrolle siguiendo este tutorial(https://www.youtube.com/watch?v=fmbm2938Pec), permite a los usuarios:
 
-## About Laravel
+    Registrarse: Crear una nueva cuenta de usuario.
+    ![imagen](https://github.com/user-attachments/assets/c15ab3b1-ddd4-42b3-a7c7-ae0994100f2d)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+    Iniciar sesión: Acceder a su cuenta personal.
+    ![imagen](https://github.com/user-attachments/assets/296bd38f-7c75-4c28-80a8-034db902dfbd)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+    Subir archivos: Agregar fotos y GIFs.
+    ![imagen](https://github.com/user-attachments/assets/e29d8349-2c7e-44c5-9932-dd54a8217ba6)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+    Buscar: Realizar búsquedas dentro de los archivos subidos.
+    ![imagen](https://github.com/user-attachments/assets/feadc6dd-4308-4d5a-a5ee-9cd81820d4c4)
 
-## Learning Laravel
+    Eliminar archivos: Borrar archivos previamente subidos.
+    ![imagen](https://github.com/user-attachments/assets/b5660cad-9ee2-43d8-a928-c000e8d89e75)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+    Cambiar tema: Alternar entre el modo claro y oscuro.
+    ![imagen](https://github.com/user-attachments/assets/b3e45370-1b2b-40d5-9b4c-1679724480d2)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Tecnologías Utilizadas
 
-## Laravel Sponsors
+    Laravel 11
+    Livewire 3
+    Alpine
+    Tailwind - DaisyUI
+    MySQL
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Instalación
 
-### Premium Partners
+    Clonar el repositorio:
+    Bash
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+    git clone https://github.com/CeciliaGarcia15/my_files_yt.git
 
-## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
+    Instalar dependencias:
+    Bash
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+    composer install
+    npm install
+    
+    
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+    Configurar la base de datos:
 
-## License
+    Copia el archivo .env.example a .env y configura los datos de tu base de datos.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+    Generar la clave de la aplicación:
+    Bash
+    
+    php artisan key:generate
+
+    Ejecutar las migraciones:
+    Bash
+    
+    php artisan migrate
+
+
+    En otra pestaña de la consola
+    npm run dev
+
+    Iniciar el servidor de desarrollo:
+    Bash
+    
+    php artisan serve
+
+    
+    Accede a la aplicación en http://127.0.0.1:8000
+    
+
+Uso
+
+    Registro: Visita la página de registro para crear una nueva cuenta.
+    Inicio de sesión: Inicia sesión con tus credenciales.
+    Subir archivos: Utiliza el formulario correspondiente para seleccionar y subir archivos.
+    Buscar archivos: Introduce palabras clave en el campo de búsqueda.
+    Eliminar archivos: Haz clic en el botón de eliminar junto al archivo que deseas borrar.
+    Cambiar tema: Utiliza el interruptor o botón para cambiar entre el modo claro y oscuro.
+
