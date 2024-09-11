@@ -4,22 +4,22 @@ Descripción
 Esta aplicación web, construida con Laravel y Livewire que desarrolle siguiendo este tutorial(https://www.youtube.com/watch?v=fmbm2938Pec), permite a los usuarios:
 
     Registrarse: Crear una nueva cuenta de usuario.
-    ![imagen](https://github.com/user-attachments/assets/c15ab3b1-ddd4-42b3-a7c7-ae0994100f2d)
+![imagen](https://github.com/user-attachments/assets/c15ab3b1-ddd4-42b3-a7c7-ae0994100f2d)
 
     Iniciar sesión: Acceder a su cuenta personal.
-    ![imagen](https://github.com/user-attachments/assets/296bd38f-7c75-4c28-80a8-034db902dfbd)
+![imagen](https://github.com/user-attachments/assets/296bd38f-7c75-4c28-80a8-034db902dfbd)
 
     Subir archivos: Agregar fotos y GIFs.
-    ![imagen](https://github.com/user-attachments/assets/e29d8349-2c7e-44c5-9932-dd54a8217ba6)
+![imagen](https://github.com/user-attachments/assets/e29d8349-2c7e-44c5-9932-dd54a8217ba6)
 
     Buscar: Realizar búsquedas dentro de los archivos subidos.
-    ![imagen](https://github.com/user-attachments/assets/feadc6dd-4308-4d5a-a5ee-9cd81820d4c4)
+![imagen](https://github.com/user-attachments/assets/feadc6dd-4308-4d5a-a5ee-9cd81820d4c4)
 
     Eliminar archivos: Borrar archivos previamente subidos.
-    ![imagen](https://github.com/user-attachments/assets/b5660cad-9ee2-43d8-a928-c000e8d89e75)
+![imagen](https://github.com/user-attachments/assets/b5660cad-9ee2-43d8-a928-c000e8d89e75)
 
     Cambiar tema: Alternar entre el modo claro y oscuro.
-    ![imagen](https://github.com/user-attachments/assets/b3e45370-1b2b-40d5-9b4c-1679724480d2)
+![imagen](https://github.com/user-attachments/assets/b3e45370-1b2b-40d5-9b4c-1679724480d2)
 
 
 Tecnologías Utilizadas
